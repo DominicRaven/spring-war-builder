@@ -17,6 +17,10 @@ public class Person {
 
     private String name;
 
+    private String desc;
+
+    private String meme;
+
     public int getId() {
         return id;
     }
@@ -31,5 +35,21 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public String getMeme() {
+        return meme;
+    }
+
+    public void setMeme(String meme) {
+        this.meme = meme;
     }
 }
